@@ -15,7 +15,7 @@ function onChange(evt) {
   let response = $(this).val();
   
   console.log(md5(response));
-  if (correct.toLowerCase() == response.toLowerCase()) {
+  if (correct == response) {
     $(this)
       .removeClass("incorrect")
       .addClass("correct");
