@@ -1,0 +1,12 @@
+.correct{
+  background:lime;
+}
+
+.incorrect{
+  background:red;
+}
+
+body{
+  background-image: url("https://media.giphy.com/media/8m4R4pvViWtRzbloJ1/giphy.gif");
+  font-family: "Times New Roman", Times, serif;
+}
