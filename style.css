@@ -8,5 +8,13 @@
 
 body{
   background-image: url("https://media.giphy.com/media/8m4R4pvViWtRzbloJ1/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-height: 50px;
+  background-size: cover;
   font-family: "Times New Roman", Times, serif;
+  color: deeppink;
+}
+ol{
+  color:lime;
 }
