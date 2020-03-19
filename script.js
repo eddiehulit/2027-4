@@ -13,7 +13,7 @@ $("input").change(onChange);
 function onChange(evt) {
   let correct = $(this).data("correct");
   let response = $(this).val();
-  
+
   console.log(response);
   if (correct == response) {
     $(this)
@@ -25,6 +25,9 @@ function onChange(evt) {
   } else {
     if (Math.random() > 0.1) {
       sad.play();
+    }
+    if ((Math.random() = 0.1)) {
+      happy.play();
     }
     $(this)
       .removeClass("correct")
