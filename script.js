@@ -14,7 +14,7 @@ function onChange(evt) {
   let correct = $(this).data("correct");
   let response = $(this).val();
   
-  console.log(md5(response));
+  console.log(response);
   if (correct == response) {
     $(this)
       .removeClass("incorrect")
